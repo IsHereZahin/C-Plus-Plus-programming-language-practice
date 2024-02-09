@@ -47,6 +47,8 @@ To get started with programming in C++, follow these steps:
 ### 1. Setup your development environment:
 
 * Install a C++ compiler on your system. Popular options include GCC (GNU Compiler Collection) for Unix-like systems and MinGW, or Visual C++, for Windows.
+> ***For Vs Code:*** *If you are using Visual Studio Code, you can follow this [documentation.](https://code.visualstudio.com/docs/cpp/config-mingw)*
+
 * Choose a text editor or an integrated development environment (IDE) for writing your code. IDEs like Visual Studio, Code::Blocks, and JetBrains CLion provide features like syntax highlighting, code completion, and debugging tools.
 
 ### 2. Learn the basics:
