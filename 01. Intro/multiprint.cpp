@@ -7,3 +7,9 @@ int main() {
     cout <<"Iam a" <<" programmer" <<endl <<"from Bangladesh.";
     return 0;
 }
+
+// Single line comment
+
+/*
+    MultiLine Comment
+*/
