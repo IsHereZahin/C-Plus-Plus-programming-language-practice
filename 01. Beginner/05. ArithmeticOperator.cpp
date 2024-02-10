@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 
     // A, a                 ----> Operands
-    // +, -, *, /, %, =     ----> Operator
+    // +, -, *, /, %,       ----> Operator
     // 1, 2, 3, 4, 5, 6, 7  ----> Constant
 
     int num1, num2;
