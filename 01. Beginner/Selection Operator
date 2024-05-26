@@ -1,0 +1,30 @@
+#include <iostream>
+
+// Define a namespace
+namespace MyNamespace {
+    int num = 5;
+    void display() {
+        std::cout << "Inside MyNamespace" << std::endl;
+    }
+}
+
+// Define a class
+class MyClass {
+public:
+    static void display() {
+        std::cout << "Inside MyClass" << std::endl;
+    }
+};
+
+int main() {
+    // Accessing namespace member using ::
+    std::cout << "Value of num from MyNamespace: " << MyNamespace::num << std::endl;
+
+    // Calling namespace function using ::
+    MyNamespace::display();
+
+    // Accessing class member using ::
+    MyClass::display();
+
+    return 0;
+}
